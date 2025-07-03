@@ -1,0 +1,7 @@
+version = 0.1
+
+[default.deploy.parameters]
+stack_name = "todo-list-staging"
+s3_bucket = "todo-list-artifacts"
+capabilities = "CAPABILITY_IAM"
+parameter_overrides = "TableName=ToDoTableStaging"
