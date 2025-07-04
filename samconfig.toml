@@ -2,6 +2,6 @@ version = 0.1
 
 [default.deploy.parameters]
 stack_name = "todo-list-production"
-s3_bucket = "todo-list-artifacts"
+s3_bucket = "prod-todolist-aws"
 capabilities = "CAPABILITY_IAM"
 parameter_overrides = "TableName=ToDoTableProd"
