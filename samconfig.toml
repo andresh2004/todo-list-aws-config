@@ -5,3 +5,5 @@ stack_name = "todo-list-production"
 s3_bucket = "prod-todolist-aws"
 capabilities = "CAPABILITY_IAM"
 parameter_overrides = "TableName=ToDoTableProd"
+region = "us-east-1"
+
